@@ -2,7 +2,7 @@
 
 # Davi Cassoli
 
-**Desenvolvedor Backend | Automacao & IA Aplicada | Python & Java**
+**Desenvolvedor Backend | Automação & IA Aplicada | Python & Java**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/davi-cassoli-lira)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/A-DAVI)
@@ -12,8 +12,7 @@
 
 ### Sobre Mim
 
-Trabalho na intersecao entre codigo, regras de negocio e decisoes criticas,
-usando IA como ferramenta — nao como atalho.
+Trabalho na interseção entre código, regras de negócio e decisões críticas, usando IA como ferramenta — não como atalho.
 
 ---
 
@@ -23,22 +22,22 @@ usando IA como ferramenta — nao como atalho.
 
 ---
 
-### O Que Eu Faco
+### O que eu faço
 
-**APIs e Servicos Backend** · Sistemas robustos e escalaveis
-**Automacao de Processos** · Integracao entre sistemas
-**Projetos com IA** · LLMs, agents e arquiteturas hibridas
-**Regras de Negocio** · Requisitos complexos em codigo confiavel
+**APIs e Serviços Backend** · Sistemas robustos e escaláveis.  
+**Automação de Processos** · Integração entre sistemas.  
+**Projetos com IA** · LLMs, agents e arquiteturas híbridas.  
+**Regras de Negócio** · Requisitos complexos em código confiável.
 
 ---
 
 ### Projetos em Destaque
 
-| Projeto | Descricao | Stack |
+| Projeto | Descrição | Stack |
 |---------|-----------|-------|
-| **Form-AI** | Sistema de diagnostico tributario com IA | Python, LangChain, MCP |
-| **MyBuddy** | Plataforma de adocao de pets | Java, Spring Boot, MySQL |
-| **Central de Controle** | Sistema desktop de gestao de despesas | Python, CustomTkinter |
+| **Form-AI** | Sistema de diagnóstico tributário com IA | Python, LangChain, MCP |
+| **MyBuddy** | Plataforma de adoção de pets | Java, Spring Boot, MySQL |
+| **Central de Controle** | Sistema desktop de gestão de despesas | Python, CustomTkinter |
 
 ---
 
@@ -51,8 +50,9 @@ usando IA como ferramenta — nao como atalho.
 
 ### Vamos Conversar?
 
-Aberto a oportunidades em **backend**, **automacao** e **IA aplicada**.
+Aberto a oportunidades em **backend**, **automação** e **IA aplicada**.
 
 **cassolidavi603@gmail.com**
 
 </div>
+```
