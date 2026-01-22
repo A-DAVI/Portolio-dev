@@ -1,116 +1,58 @@
-# Portfolio - Davi Cassoli
+<div align="center">
 
-Landing page profissional de portfolio pessoal para desenvolvedor backend.
+# Davi Cassoli
 
-## Estrutura do Projeto
+**Desenvolvedor Backend | Automacao & IA Aplicada | Python & Java**
 
-```
-portfolio/
-├── index.html          # Pagina principal
-├── css/
-│   └── style.css       # Estilos
-├── js/
-│   └── main.js         # JavaScript (animacoes, menu mobile)
-├── assets/
-│   └── images/         # Imagens do projeto
-├── Docs/
-│   └── PORTIFOLIO_DOCS.md  # Documentacao detalhada
-└── README.md           # Este arquivo
-```
-
-## Tecnologias
-
-- HTML5
-- CSS3 (Dark mode, responsivo)
-- JavaScript (vanilla)
-- [Lucide Icons](https://lucide.dev/)
-- Google Fonts (Inter, Space Grotesk, JetBrains Mono)
-
-## Como Rodar Localmente
-
-### Opcao 1: Abrir direto no navegador
-Basta abrir o arquivo `index.html` no navegador.
-
-### Opcao 2: Usar servidor local (recomendado)
-
-**Com Python:**
-```bash
-# Python 3
-python -m http.server 8000
-
-# Acesse: http://localhost:8000
-```
-
-**Com Node.js:**
-```bash
-# Instalar live-server globalmente
-npm install -g live-server
-
-# Rodar
-live-server
-```
-
-**Com VS Code:**
-Instale a extensao "Live Server" e clique em "Go Live" no canto inferior direito.
-
-## Deploy
-
-### GitHub Pages (Recomendado)
-
-1. Suba o codigo para o GitHub:
-```bash
-git add .
-git commit -m "feat: versao inicial do portfolio"
-git push origin master
-```
-
-2. No GitHub, va em **Settings** > **Pages**
-
-3. Em "Source", selecione:
-   - Branch: `master`
-   - Folder: `/ (root)`
-
-4. Clique em **Save**
-
-5. O site estara disponivel em: `https://A-DAVI.github.io/Portfolio-dev/`
-
-### Vercel (Alternativa)
-
-1. Acesse [vercel.com](https://vercel.com)
-2. Conecte sua conta GitHub
-3. Importe o repositorio
-4. Clique em **Deploy**
-
-### Netlify (Alternativa)
-
-1. Acesse [netlify.com](https://netlify.com)
-2. Arraste a pasta do projeto para o dashboard
-3. Ou conecte via GitHub para deploys automaticos
-
-## Personalizacao
-
-### Trocar foto/avatar
-Substitua o placeholder em `assets/images/` e atualize o caminho no `index.html`.
-
-### Adicionar novos projetos
-Adicione um novo bloco `<div class="project-card">` na secao de projetos seguindo o padrao existente.
-
-### Alterar cores
-Edite as variaveis CSS em `css/style.css`:
-```css
-:root {
-    --primary-dark: #0f1419;
-    --accent-blue: #7a9bb8;
-    /* ... */
-}
-```
-
-## Contato
-
-- **Email:** cassolidavi603@gmail.com
-- **LinkedIn:** [/davi-cassoli-lira](https://linkedin.com/in/davi-cassoli-lira)
-- **GitHub:** [/A-DAVI](https://github.com/A-DAVI)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/davi-cassoli-lira)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/A-DAVI)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:cassolidavi603@gmail.com)
 
 ---
 
-Desenvolvido por Davi Cassoli - 2026
+### Sobre Mim
+
+Trabalho na intersecao entre codigo, regras de negocio e decisoes criticas,
+usando IA como ferramenta — nao como atalho.
+
+---
+
+### Tech Stack
+
+<img src="https://skillicons.dev/icons?i=python,java,spring,fastapi,docker,git" />
+
+---
+
+### O Que Eu Faco
+
+**APIs e Servicos Backend** · Sistemas robustos e escalaveis
+**Automacao de Processos** · Integracao entre sistemas
+**Projetos com IA** · LLMs, agents e arquiteturas hibridas
+**Regras de Negocio** · Requisitos complexos em codigo confiavel
+
+---
+
+### Projetos em Destaque
+
+| Projeto | Descricao | Stack |
+|---------|-----------|-------|
+| **Form-AI** | Sistema de diagnostico tributario com IA | Python, LangChain, MCP |
+| **MyBuddy** | Plataforma de adocao de pets | Java, Spring Boot, MySQL |
+| **Central de Controle** | Sistema desktop de gestao de despesas | Python, CustomTkinter |
+
+---
+
+### GitHub Stats
+
+<img src="https://github-readme-stats.vercel.app/api?username=A-DAVI&show_icons=true&theme=dark&hide_border=true&bg_color=0f1419&title_color=7a9bb8&icon_color=7a9bb8&text_color=e8eef3" height="165" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=A-DAVI&layout=compact&theme=dark&hide_border=true&bg_color=0f1419&title_color=7a9bb8&text_color=e8eef3" height="165" />
+
+---
+
+### Vamos Conversar?
+
+Aberto a oportunidades em **backend**, **automacao** e **IA aplicada**.
+
+**cassolidavi603@gmail.com**
+
+</div>
