@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <title>Davi Cassoli | Desenvolvedor Backend | Python & Java</title>
+    <meta name="description" content="Desenvolvedor backend com foco em automação, IA aplicada e sistemas confiáveis. Python, Java, Spring Boot, LangChain.">
+    <meta name="keywords" content="desenvolvedor backend, python, java, automação, IA, RPA, spring boot">
+    <meta name="author" content="Davi Cassoli Lira">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Davi Cassoli | Desenvolvedor Backend">
+    <meta property="og:description" content="Automação, IA Aplicada e Sistemas Confiáveis">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container navbar-container">
+            <a href="#" class="logo">DC</a>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+
+            <a href="#contato" class="btn btn-primary nav-cta">Fale Comigo</a>
+
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menu">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <ul class="mobile-nav-links">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="hero-bg"></div>
+            <div class="container hero-container">
+                <div class="hero-content fade-left">
+                    <span class="hero-tag">Desenvolvedor Backend</span>
+                    <h1 class="hero-title">Davi Cassoli</h1>
+                    <p class="hero-subtitle">Automação, IA Aplicada</p>
+                    <p class="hero-bio">
+                        Trabalho na interseção entre código, regras de negócio e decisões críticas,
+                        usando IA como ferramenta — não como atalho.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="https://github.com/A-DAVI" target="_blank" class="btn btn-primary">
+                            <i data-lucide="github"></i>
+                            GitHub
+                        </a>
+                        <a href="https://linkedin.com/in/davi-cassoli-lira" target="_blank" class="btn btn-primary">
+                            <i data-lucide="linkedin"></i>
+                            LinkedIn
+                        </a>
+                        <a href="#" class="btn btn-secondary">
+                            <i data-lucide="download"></i>
+                            Download CV
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image fade-right">
+                    <div class="avatar-placeholder">
+                        <span>DC</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Como Eu Penso -->
+        <section class="section" id="sobre">
+            <div class="container section-container section-reverse">
+                <div class="section-image fade-left">
+                    <div class="illustration-placeholder">
+                        <i data-lucide="brain"></i>
+                    </div>
+                </div>
+                <div class="section-content fade-right">
+                    <h2 class="section-title">Como eu penso software</h2>
+                    <div class="philosophy-grid">
+                        <div class="philosophy-card">
+                            <div class="philosophy-icon">
+                                <i data-lucide="brain"></i>
+                            </div>
+                            <div class="philosophy-text">
+                                <h3>IA não substitui entendimento</h3>
+                                <p>Uso LLMs e agents com limites claros, validações e regras determinísticas quando necessário.</p>
+                            </div>
+                        </div>
+                        <div class="philosophy-card">
+                            <div class="philosophy-icon">
+                                <i data-lucide="zap"></i>
+                            </div>
+                            <div class="philosophy-text">
+                                <h3>Automação é responsabilidade</h3>
+                                <p>Reduzir esforço humano também significa reduzir riscos.</p>
+                            </div>
+                        </div>
+                        <div class="philosophy-card">
+                            <div class="philosophy-icon">
+                                <i data-lucide="target"></i>
+                            </div>
+                            <div class="philosophy-text">
+                                <h3>Simplicidade escala melhor</h3>
+                                <p>Do que abstrações frágeis.</p>
+                            </div>
+                        </div>
+                        <div class="philosophy-card">
+                            <div class="philosophy-icon">
+                                <i data-lucide="search"></i>
+                            </div>
+                            <div class="philosophy-text">
+                                <h3>Sistemas observáveis</h3>
+                                <p>Prefiro sistemas explicáveis e fáceis de manter.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- O Que Eu Faço -->
+        <section class="section section-alt">
+            <div class="container section-container">
+                <div class="section-content fade-left">
+                    <h2 class="section-title">O que eu faço na prática</h2>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i data-lucide="code-2"></i>
+                            </div>
+                            <div class="skill-text">
+                                <h3>APIs e Serviços Backend</h3>
+                                <p>Desenvolvimento de sistemas robustos e escaláveis</p>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i data-lucide="refresh-cw"></i>
+                            </div>
+                            <div class="skill-text">
+                                <h3>Automação de Processos</h3>
+                                <p>Integração entre sistemas e eliminação de tarefas manuais</p>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i data-lucide="bot"></i>
+                            </div>
+                            <div class="skill-text">
+                                <h3>Projetos com IA</h3>
+                                <p>LLMs, agents e arquiteturas híbridas</p>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i data-lucide="clipboard-list"></i>
+                            </div>
+                            <div class="skill-text">
+                                <h3>Tradução de Regras de Negócio</h3>
+                                <p>Transformar requisitos complexos em código confiável</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-image fade-right">
+                    <div class="tech-stack">
+                        <h3>Tech Stack</h3>
+                        <div class="tech-icons">
+                            <div class="tech-icon" title="Python">
+                                <img src="https://skillicons.dev/icons?i=python" alt="Python">
+                            </div>
+                            <div class="tech-icon" title="Java">
+                                <img src="https://skillicons.dev/icons?i=java" alt="Java">
+                            </div>
+                            <div class="tech-icon" title="Spring Boot">
+                                <img src="https://skillicons.dev/icons?i=spring" alt="Spring Boot">
+                            </div>
+                            <div class="tech-icon" title="FastAPI">
+                                <img src="https://skillicons.dev/icons?i=fastapi" alt="FastAPI">
+                            </div>
+                            <div class="tech-icon" title="Docker">
+                                <img src="https://skillicons.dev/icons?i=docker" alt="Docker">
+                            </div>
+                            <div class="tech-icon" title="Git">
+                                <img src="https://skillicons.dev/icons?i=git" alt="Git">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projetos -->
+        <section class="section" id="projetos">
+            <div class="container">
+                <h2 class="section-title centered">Projetos</h2>
+
+                <!-- Form-AI -->
+                <div class="project-card fade-up">
+                    <div class="project-image">
+                        <div class="project-placeholder gradient-1">
+                            <i data-lucide="brain"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">Projeto Principal</span>
+                        <h3 class="project-title">Form-AI</h3>
+                        <p class="project-subtitle">Sistema de Diagnóstico Tributário</p>
+                        <p class="project-description">
+                            Sistema de consultoria tributária automatizada para a Reforma Tributária brasileira
+                            (LC 214/2025). Arquitetura híbrida combinando LLMs e regras determinísticas para
+                            garantir precisão nos cálculos.
+                        </p>
+                        <ul class="project-highlights">
+                            <li><i data-lucide="check"></i> Agents + regras determinísticas</li>
+                            <li><i data-lucide="check"></i> Controle de alucinação numérica</li>
+                            <li><i data-lucide="check"></i> API Receita Federal</li>
+                            <li><i data-lucide="check"></i> 19 fontes legais</li>
+                        </ul>
+                        <div class="project-stack">
+                            <span>Python</span>
+                            <span>LangChain</span>
+                            <span>MCP</span>
+                            <span>Tauri</span>
+                            <span>React</span>
+                        </div>
+                        <blockquote class="project-quote">
+                            "IA usada onde faz sentido. Regras usadas onde precisão é obrigatória."
+                        </blockquote>
+                        <a href="#" class="btn btn-secondary">
+                            <i data-lucide="lock"></i>
+                            Projeto Privado
+                        </a>
+                    </div>
+                </div>
+
+                <!-- MyBuddy -->
+                <div class="project-card project-reverse fade-up">
+                    <div class="project-image">
+                        <div class="project-placeholder gradient-2">
+                            <img src="./assets/images/mybuddy.png" alt="MyBuddy">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">Projeto Acadêmico</span>
+                        <h3 class="project-title">MyBuddy</h3>
+                        <p class="project-subtitle">Plataforma de Adoção de Pets</p>
+                        <p class="project-description">
+                            Plataforma desenvolvida em ambiente colaborativo durante imersão profissional.
+                            APIs REST completas com autenticação e trabalho real em equipe.
+                        </p>
+                        <ul class="project-highlights">
+                            <li><i data-lucide="check"></i> APIs REST com Spring Boot</li>
+                            <li><i data-lucide="check"></i> Autenticação JWT</li>
+                            <li><i data-lucide="check"></i> Git Flow e code review</li>
+                            <li><i data-lucide="check"></i> 11 PRs mergeados</li>
+                        </ul>
+                        <div class="project-stack">
+                            <span>Java</span>
+                            <span>Spring Boot</span>
+                            <span>Spring Security</span>
+                            <span>MySQL</span>
+                        </div>
+                        <a href="https://github.com/A-DAVI" target="_blank" class="btn btn-primary">
+                            <i data-lucide="github"></i>
+                            Ver no GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Central de Controle -->
+                <div class="project-card fade-up">
+                    <div class="project-image">
+                        <div class="project-placeholder gradient-3">
+                            <i data-lucide="bar-chart-3"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">Projeto Profissional</span>
+                        <h3 class="project-title">Central de Controle de Despesas</h3>
+                        <p class="project-subtitle">Sistema Desktop Empresarial</p>
+                        <p class="project-description">
+                            Sistema para registro e gestão de despesas empresariais com interface moderna
+                            e geração de relatórios PDF profissionais.
+                        </p>
+                        <ul class="project-highlights">
+                            <li><i data-lucide="check"></i> Interface CustomTkinter</li>
+                            <li><i data-lucide="check"></i> Relatórios em PDF</li>
+                            <li><i data-lucide="check"></i> Arquitetura modular</li>
+                            <li><i data-lucide="check"></i> Em uso real</li>
+                        </ul>
+                        <div class="project-stack">
+                            <span>Python</span>
+                            <span>CustomTkinter</span>
+                            <span>ReportLab</span>
+                        </div>
+                        <a href="https://github.com/A-DAVI" target="_blank" class="btn btn-primary">
+                            <i data-lucide="github"></i>
+                            Ver no GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- GitHub Stats -->
+        <section class="section section-alt">
+            <div class="container">
+                <h2 class="section-title centered fade-up">GitHub Stats</h2>
+                <div class="github-stats fade-up">
+                    <div class="stat-card">
+                        <i data-lucide="folder-git-2"></i>
+                        <span class="stat-number">31</span>
+                        <span class="stat-label">Repositórios</span>
+                    </div>
+                    <div class="stat-card">
+                        <i data-lucide="git-pull-request"></i>
+                        <span class="stat-number">11+</span>
+                        <span class="stat-label">PRs Mergeados</span>
+                    </div>
+                    <div class="stat-card">
+                        <i data-lucide="code"></i>
+                        <span class="stat-number">Python</span>
+                        <span class="stat-label">Linguagem Principal</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contato -->
+        <section class="section" id="contato">
+            <div class="container">
+                <h2 class="section-title centered fade-up">Vamos conversar?</h2>
+                <p class="section-subtitle centered fade-up">
+                    Aberto a oportunidades em backend, automação e IA aplicada
+                </p>
+                <div class="contact-cards fade-up">
+                    <a href="mailto:cassolidavi603@gmail.com" class="contact-card">
+                        <i data-lucide="mail"></i>
+                        <span class="contact-title">Email</span>
+                        <span class="contact-value">cassolidavi603@gmail.com</span>
+                    </a>
+                    <a href="https://linkedin.com/in/davi-cassoli-lira" target="_blank" class="contact-card">
+                        <i data-lucide="linkedin"></i>
+                        <span class="contact-title">LinkedIn</span>
+                        <span class="contact-value">/davi-cassoli-lira</span>
+                    </a>
+                    <a href="https://github.com/A-DAVI" target="_blank" class="contact-card">
+                        <i data-lucide="github"></i>
+                        <span class="contact-title">GitHub</span>
+                        <span class="contact-value">/A-DAVI</span>
+                    </a>
+                </div>
+                <div class="contact-cta fade-up">
+                    <a href="mailto:cassolidavi603@gmail.com" class="btn btn-primary btn-large">
+                        <i data-lucide="send"></i>
+                        Enviar Email
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p class="footer-text">© 2026 Davi Cassoli</p>
+            <p class="footer-credit">em breve mais seções</p>
+            <div class="footer-links">
+                <a href="https://github.com/A-DAVI" target="_blank" aria-label="GitHub">
+                    <i data-lucide="github"></i>
+                </a>
+                <a href="https://linkedin.com/in/davi-cassoli-lira" target="_blank" aria-label="LinkedIn">
+                    <i data-lucide="linkedin"></i>
+                </a>
+                <a href="mailto:cassolidavi603@gmail.com" aria-label="Email">
+                    <i data-lucide="mail"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
