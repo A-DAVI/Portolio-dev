@@ -55,4 +55,3 @@ Aberto a oportunidades em **backend**, **automação** e **IA aplicada**.
 **cassolidavi603@gmail.com**
 
 </div>
-```
